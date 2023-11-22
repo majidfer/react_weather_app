@@ -26,9 +26,6 @@ function TopButton({ setQuery }) {
   ];
   return (
     <>
-      {/* <div className="flex items-center justify-center h-48 w-full">
-        <Logo />
-      </div> */}
       <div className="flex justify-center">
         <img className="w-64 h-auto" src={Logo} alt="" />
       </div>
@@ -37,11 +34,11 @@ function TopButton({ setQuery }) {
           Aksamaia Weather App
         </h1>
       </div>
-      <div className="flex items-center justify-around my-6">
+      <div className="flex flex-wrap items-center justify-around my-6">
         {cities.map((city) => (
           <button
             key={city.id}
-            className="text-white text-lg font-medium"
+            className="text-white text-lg font-medium m-2"
             onClick={() => setQuery({ q: city.title })}
           >
             {city.title}

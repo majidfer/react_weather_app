@@ -64,7 +64,7 @@ function App() {
     <div
       // className={`text-sans mx-auto max-w-screen-md mt-4 py-5 px-32 bg-gradient-to-br h-fit shadow-xl shadow-gray-400 ${formatBackground()}`}
 
-      className="text-sans mx-auto max-w-screen-md mt-4 py-5 px-32 bg-gradient-to-br h-fit shadow-xl shadow-gray-400 from-cyan-700 to-blue-700 rounded-lg"
+      className="text-sans mx-auto max-w-screen-md mt-4 py-5 px-4 sm:px-8 md:px-16 lg:px-32 bg-gradient-to-br h-fit shadow-xl shadow-gray-400 from-cyan-700 to-blue-700 rounded-lg"
     >
       <TopButton setQuery={setQuery} />
       <Inputs setQuery={setQuery} units={units} setUnits={setUnits} />
