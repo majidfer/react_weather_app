@@ -27,7 +27,9 @@ function TopButton({ setQuery }) {
   return (
     <>
       <div className="flex justify-center">
-        <img className="w-64 h-auto" src={Logo} alt="" />
+        <a href="http://aksamaia.co.id">
+          <img className="w-64 h-auto" src={Logo} alt="" />
+        </a>
       </div>
       <div className="flex justify-around my-6">
         <h1 className="text-2xl font-medium text-white">

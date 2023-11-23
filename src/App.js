@@ -48,7 +48,7 @@ function App() {
   }, [query, units]);
 
   if (error) {
-    toast.error(`Ada error, Bang!! ${error}`);
+    toast.error(`Nama kota tidak ditemukan 🥲`);
     setError(null);
   }
 
