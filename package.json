@@ -1,7 +1,7 @@
 {
   "name": "react_weather_app",
   "version": "0.1.0",
-  "homepage": "https://aws.aksamaia.co.id/",
+  "homepage": "https://weather.aksamaia.co.id/",
   "private": true,
   "dependencies": {
     "@iconscout/react-unicons": "^2.0.2",
